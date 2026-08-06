@@ -55,19 +55,28 @@ const Projects = () => {
         features: '6+'
     }
 },
-        // {
-        //     id: 3,
-        //     title: 'Portfolio Website',
-        //     description: 'Modern, responsive portfolio website with dark mode and smooth animations.',
-        //     image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&q=80',
-        //     technologies: ['React', 'Tailwind CSS', 'Framer Motion'],
-        //     category: 'Frontend',
-        //     liveLink: '#',
-        //     githubLink: '#',
-        //     color: 'from-green-500 to-emerald-500',
-        //     gradient: 'green',
-        //     stats: { views: '15K+', projects: '12' }
-        // },
+       {
+    id: 3,
+    title: 'Cake Shop Website',
+    description: 'A modern and responsive cake shop website featuring product browsing, category filtering, user authentication, and an intuitive shopping experience.',
+    image: 'https://i.pinimg.com/736x/5a/66/23/5a6623c0ed0bc0b37a4097aa15e6fa53.jpg',
+    technologies: [
+        'React',
+        'JavaScript',
+        'Tailwind CSS',
+        'Firebase',
+        'React Router'
+    ],
+    category: 'Frontend',
+    liveLink: 'https://bake-berry-cakes-chi.vercel.app/',
+    githubLink: 'https://github.com/JamshedSifat',
+    color: 'from-pink-500 to-rose-500',
+    gradient: 'pink',
+    stats: {
+        products: '50+',
+        pages: '10+'
+    }
+},
         // {
         //     id: 4,
         //     title: 'Weather Dashboard',
