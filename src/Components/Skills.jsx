@@ -57,7 +57,7 @@ const Skills = () => {
     ];
 
     return (
-        <div className={`min-h-screen py-20 px-4 relative overflow-hidden ${
+        <div id="skills" className={`min-h-screen py-20 px-4 relative overflow-hidden ${
             isDarkMode ? 'bg-gray-900' : 'bg-white'
         }`}>
             {/* Animated Water Wave Background */}

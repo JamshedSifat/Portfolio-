@@ -7,7 +7,7 @@ const Banner = () => {
     const { isDarkMode } = useTheme();
     
     return (
-        <div className={`min-h-screen flex items-center justify-center relative overflow-hidden ${
+        <div id="home" className={`min-h-screen flex items-center justify-center relative overflow-hidden ${
             isDarkMode ? 'bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900' : 'bg-gradient-to-br from-purple-50 via-white to-blue-50'
         }`}>
             {/* Animated Background Elements */}

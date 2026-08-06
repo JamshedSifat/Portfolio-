@@ -14,19 +14,19 @@ const Navbar = () => {
 
   const links = (
     <>
-      <NavLink className={navStyle} to="/">Home</NavLink>
-      <NavLink className={navStyle} to="/about">About</NavLink>
-      <NavLink className={navStyle} to="/skill">Skills</NavLink>
-      <NavLink className={navStyle} to="/project">Projects</NavLink>
-      <NavLink className={navStyle} to="/services">Services</NavLink>
+      <NavLink className={navStyle} to="/#home">Home</NavLink>
+      <NavLink className={navStyle} to="/#about">About</NavLink>
+      <NavLink className={navStyle} to="/#skills">Skills</NavLink>
+      <NavLink className={navStyle} to="/#projects">Projects</NavLink>
+      
     </>
   );
 
   return (
-    <div className={`navbar sticky top-0 z-50 backdrop-blur-xl rounded-full transition-colors duration-300 ${
+    <div className={`navbar fixed top-4 left-1/2 transform -translate-x-1/2 z-50 backdrop-blur-xl rounded-full transition-all duration-300 w-[95%] md:w-[90%] lg:w-[85%] xl:w-[75%] shadow-2xl ${
       isDarkMode 
-        ? 'bg-gray-800/80 border border-purple-700' 
-        : 'bg-purple-100/80 border border-purple-300'
+        ? 'bg-gray-900/80 border border-purple-500/30 shadow-purple-500/10' 
+        : 'bg-white/80 border border-purple-300/30 shadow-purple-500/10'
     }`}>
       
       {/* LEFT */}
@@ -44,8 +44,8 @@ const Navbar = () => {
             tabIndex={0}
             className={`menu menu-sm dropdown-content mt-3 p-4 w-52 rounded-xl shadow-lg gap-2 ${
               isDarkMode 
-                ? 'bg-gray-800 border border-purple-700' 
-                : 'bg-white border border-purple-200'
+                ? 'bg-gray-900/95 border border-purple-500/30 backdrop-blur-xl' 
+                : 'bg-white/95 border border-purple-200/30 backdrop-blur-xl'
             }`}>
             {links}
           </ul>

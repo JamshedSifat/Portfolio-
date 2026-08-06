@@ -13,7 +13,7 @@ const Layout = () => {
                 ? 'bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 text-gray-100' 
                 : 'bg-gradient-to-br from-purple-50 via-white to-purple-50 text-gray-900'
         }`}>
-            <header className=' w-10/12 mx-auto'>
+            <header className=' w-10/12 mx-auto mt-14'>
                 <Navbar />
             </header>
             <main className=''>
