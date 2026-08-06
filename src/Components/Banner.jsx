@@ -74,7 +74,7 @@ const Banner = () => {
                     <p className={`text-sm sm:text-base md:text-lg max-w-xl mx-auto lg:mx-0 animate-fade-in-delay-2 ${
                         isDarkMode ? 'text-gray-400' : 'text-gray-600'
                     }`}>
-                        Full-stack developer passionate about creating beautiful, functional, and user-friendly web experiences.
+                        Frontend developer passionate about creating beautiful, and user-friendly web experiences.
                     </p>
 
                     {/* CTA Buttons */}
