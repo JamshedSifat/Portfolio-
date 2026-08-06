@@ -10,122 +10,78 @@ const Projects = () => {
 
     const allProjects = [
         {
-            id: 1,
-            title: 'E-Commerce Platform',
-            description: 'Full-stack online shopping platform with payment integration and real-time inventory management.',
-            image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80',
-            technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-            category: 'Full Stack',
-            liveLink: '#',
-            githubLink: '#',
-            color: 'from-purple-500 to-pink-500',
-            gradient: 'purple',
-            stats: { users: '10K+', sales: '$50K+' }
-        },
+    id: 1,
+    title: 'Event Management Platform',
+    description: 'A modern event management frontend application featuring separate client and admin dashboards. Users can explore and book events, while administrators can efficiently manage events, bookings, and platform content through a responsive interface.',
+    image: 'https://i.pinimg.com/736x/54/4e/54/544e541619bcd1839079c733d61f6471.jpg',
+    technologies: [
+        'React',
+        'JavaScript',
+        'Tailwind CSS',
+        'Firebase',
+        'React Router',
+        'Axios'
+    ],
+    category: 'Frontend',
+    liveLink: 'https://anata-events-jet.vercel.app/',
+    githubLink: 'https://github.com/JamshedSifat',
+    color: 'from-purple-500 to-pink-500',
+    gradient: 'purple',
+    stats: {
+        dashboards: '1',
+        responsive: '100%'
+    }
+},
         {
-            id: 2,
-            title: 'Task Management App',
-            description: 'Collaborative project management tool with drag-and-drop functionality and team chat.',
-            image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80',
-            technologies: ['React', 'Firebase', 'Tailwind CSS'],
-            category: 'Frontend',
-            liveLink: '#',
-            githubLink: '#',
-            color: 'from-blue-500 to-cyan-500',
-            gradient: 'blue',
-            stats: { tasks: '5K+', teams: '200+' }
-        },
-        {
-            id: 3,
-            title: 'Portfolio Website',
-            description: 'Modern, responsive portfolio website with dark mode and smooth animations.',
-            image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&q=80',
-            technologies: ['React', 'Tailwind CSS', 'Framer Motion'],
-            category: 'Frontend',
-            liveLink: '#',
-            githubLink: '#',
-            color: 'from-green-500 to-emerald-500',
-            gradient: 'green',
-            stats: { views: '15K+', projects: '12' }
-        },
-        {
-            id: 4,
-            title: 'Weather Dashboard',
-            description: 'Real-time weather tracking application with interactive maps and forecasts.',
-            image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&q=80',
-            technologies: ['React', 'OpenWeather API', 'Chart.js'],
-            category: 'Frontend',
-            liveLink: '#',
-            githubLink: '#',
-            color: 'from-orange-500 to-red-500',
-            gradient: 'orange',
-            stats: { locations: '100+', accuracy: '98%' }
-        },
-        {
-            id: 5,
-            title: 'Social Media API',
-            description: 'RESTful API for social media platform with authentication and real-time updates.',
-            image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80',
-            technologies: ['Node.js', 'Express', 'MongoDB', 'Socket.io'],
-            category: 'Backend',
-            liveLink: '#',
-            githubLink: '#',
-            color: 'from-pink-500 to-rose-500',
-            gradient: 'pink',
-            stats: { requests: '1M+', uptime: '99.9%' }
-        },
-        {
-            id: 6,
-            title: 'Blog CMS',
-            description: 'Content management system for blogs with markdown support and SEO optimization.',
-            image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80',
-            technologies: ['React', 'Node.js', 'PostgreSQL'],
-            category: 'Full Stack',
-            liveLink: '#',
-            githubLink: '#',
-            color: 'from-indigo-500 to-purple-500',
-            gradient: 'indigo',
-            stats: { posts: '500+', authors: '50+' }
-        },
-        {
-            id: 7,
-            title: 'AI Chat Application',
-            description: 'Real-time chat application with AI-powered responses and sentiment analysis.',
-            image: 'https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&q=80',
-            technologies: ['React', 'Python', 'TensorFlow', 'WebSocket'],
-            category: 'AI/ML',
-            liveLink: '#',
-            githubLink: '#',
-            color: 'from-red-500 to-yellow-500',
-            gradient: 'red',
-            stats: { messages: '100K+', accuracy: '95%' }
-        },
-        {
-            id: 8,
-            title: 'NFT Marketplace',
-            description: 'Decentralized NFT marketplace with blockchain integration and wallet support.',
-            image: 'https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=800&q=80',
-            technologies: ['React', 'Solidity', 'Web3.js', 'IPFS'],
-            category: 'Blockchain',
-            liveLink: '#',
-            githubLink: '#',
-            color: 'from-yellow-500 to-orange-500',
-            gradient: 'yellow',
-            stats: { nfts: '1K+', volume: '$2M+' }
-        },
-        {
-            id: 9,
-            title: 'Health Tracker App',
-            description: 'Comprehensive health monitoring application with wearable device integration.',
-            image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80',
-            technologies: ['React Native', 'Node.js', 'MongoDB', 'GraphQL'],
-            category: 'Mobile',
-            liveLink: '#',
-            githubLink: '#',
-            color: 'from-teal-500 to-cyan-500',
-            gradient: 'teal',
-            stats: { users: '50K+', workouts: '1M+' }
-        }
+    id: 2,
+    title: 'Smart Healthcare System',
+    description: 'A healthcare management web application that enables patients to book doctor appointments, receive medicine reminders, and access essential healthcare services through an intuitive and user-friendly interface.',
+    image: 'https://i.pinimg.com/736x/09/21/f2/0921f244ca8cbe7bd5b92175f3a2d833.jpg',
+    technologies: [
+        'Python',
+        'Django',
+        'HTML',
+        'CSS',
+        'Bootstrap',
+        'SQLite'
+    ],
+    category: 'Full Stack',
+    liveLink: 'https://smarthealthcaresystems.onrender.com/',
+    githubLink: 'https://github.com/JamshedSifat',
+    color: 'from-blue-500 to-cyan-500',
+    gradient: 'blue',
+    stats: {
+        modules: '5+',
+        features: '6+'
+    }
+},
+        // {
+        //     id: 3,
+        //     title: 'Portfolio Website',
+        //     description: 'Modern, responsive portfolio website with dark mode and smooth animations.',
+        //     image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&q=80',
+        //     technologies: ['React', 'Tailwind CSS', 'Framer Motion'],
+        //     category: 'Frontend',
+        //     liveLink: '#',
+        //     githubLink: '#',
+        //     color: 'from-green-500 to-emerald-500',
+        //     gradient: 'green',
+        //     stats: { views: '15K+', projects: '12' }
+        // },
+        // {
+        //     id: 4,
+        //     title: 'Weather Dashboard',
+        //     description: 'Real-time weather tracking application with interactive maps and forecasts.',
+        //     image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&q=80',
+        //     technologies: ['React', 'OpenWeather API', 'Chart.js'],
+        //     category: 'Frontend',
+        //     liveLink: '#',
+        //     githubLink: '#',
+        //     color: 'from-orange-500 to-red-500',
+        //     gradient: 'orange',
+        //     stats: { locations: '100+', accuracy: '98%' }
+        // },
+     
     ];
 
     // Show only 6 projects initially, all when showAll is true
@@ -201,7 +157,7 @@ const Projects = () => {
     };
 
     return (
-        <div className={`min-h-screen px-4 md:px-8 py-12 md:py-20 relative overflow-hidden ${
+        <div id="projects" className={`min-h-screen px-4 md:px-8 py-12 md:py-20 relative overflow-hidden ${
             isDarkMode ? 'bg-gray-900' : 'bg-gray-50'
         }`}>
             {/* Animated Background */}
@@ -363,7 +319,7 @@ const Projects = () => {
                                             <div className="flex gap-1">
                                                 {[...Array(5)].map((_, i) => (
                                                     <svg key={i} className={`w-4 h-4 ${
-                                                        i < 4 ? 'text-yellow-400' : 'text-gray-300'
+                                                        i < 5 ? 'text-yellow-400' : 'text-gray-300'
                                                     }`} fill="currentColor" viewBox="0 0 20 20">
                                                         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
                                                     </svg>

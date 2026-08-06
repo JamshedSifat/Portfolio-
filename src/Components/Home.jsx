@@ -7,16 +7,10 @@ import About from './About';
 const Home = () => {
     return (
         <div>
-           <section id="home">
-            <Banner></Banner>
-           </section>
-           <About></About>
-           <div id="skills">
-            <Skills></Skills>
-           </div>
-           <div id='projects'>
-            <Projects></Projects>
-           </div>
+            <Banner />
+            <About />
+            <Skills />
+            <Projects />
         </div>
     );
 };
