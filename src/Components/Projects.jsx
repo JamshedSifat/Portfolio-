@@ -77,6 +77,19 @@ const Projects = () => {
         pages: '10+'
     }
 },
+{
+    id: 4,
+    title: 'SportNest',
+    description: 'A full-stack sports e-commerce platform for browsing, purchasing, and managing sports equipment with secure authentication and order management.',
+    image: 'https://i.pinimg.com/736x/4d/5b/9a/4d5b9a9d8ca3e425f8788fa4169857dd.jpg',
+    technologies: ['Python', 'Django', 'Django REST Framework','Tailwind CSS', 'SQLite'],
+    category: 'Full Stack',
+    liveLink: 'https://sportnest-xq9i.onrender.com/',
+    githubLink: 'https://github.com/JamshedSifat',
+    color: 'from-green-500 to-emerald-600',
+    gradient: 'green',
+    stats: { products: '50+', features: 'Full Stack' }
+},
         // {
         //     id: 4,
         //     title: 'Weather Dashboard',
