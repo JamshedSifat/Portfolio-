@@ -1,5 +1,5 @@
 import React from 'react';
-import Banner from './Banner';
+import Hero3D from './Hero3D/Hero3D';
 import Skills from './Skills';
 import Projects from './Projects';
 import About from './About';
@@ -7,7 +7,7 @@ import About from './About';
 const Home = () => {
     return (
         <div>
-            <Banner />
+            <Hero3D />
             <About />
             <Skills />
             <Projects />

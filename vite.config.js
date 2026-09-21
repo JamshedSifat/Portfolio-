@@ -5,4 +5,9 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss()],
+  server: {
+    host: true,
+    // allow proxied dev previews (e.g. sandbox/tunnel hosts)
+    allowedHosts: ['.e2b.app'],
+  },
 })
